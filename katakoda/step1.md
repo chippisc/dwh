@@ -9,11 +9,11 @@ Start container
 `docker run \
     --publish=7474:7474 --publish=7687:7687 \
     --volume=$HOME/neo4j/data:/data \
-    --name=neo4jdwh
+    --name=neo4jdwh \
     neo4j
 `{{execute}}
 
 Enter docker environment
 
-`docker exec -it testneo4j bash`{{execute T2}}
+`docker exec -it neo4jdwh bash`{{execute T2}}
 
