@@ -14,9 +14,9 @@ Start container
 `{{execute}}
 
 Copy csv file to container
-`docker cp ./FearStudyData.csv neo4jdwh:/var/lib/neo4j/import/FearStudyData.csv`{{execute}}
+`docker cp ./FearStudyData.csv neo4jdwh:/var/lib/neo4j/import/FearStudyData.csv`{{execute T2}}
 
 Enter docker environment
 
-`docker exec -it neo4jdwh bash`{{execute T2}}
+`docker exec -it neo4jdwh bash`{{execute}}
 
