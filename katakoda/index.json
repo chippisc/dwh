@@ -15,6 +15,14 @@
     },
     "finish": {
       "text": "finish.md"
+    },
+    "assets": {
+      "client": [
+        {
+          "file": "FearStudyData.csv",
+          "target": "~/"
+        }
+      ]
     }
   },
   "environment": {
