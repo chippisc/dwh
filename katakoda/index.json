@@ -16,6 +16,14 @@
       {
         "title": "Importing data from CSV",
         "text": "step3.md"
+      },
+      {
+        "title": "Querying the database",
+        "text": "step4.md"
+      },
+      {
+        "title": "Why did we execute 4 queries?",
+        "text": "step5.md"
       }
     ],
     "intro": {
