@@ -12,4 +12,4 @@ The additional column Greatest that represents fears that are not listed as fear
 
 A screenshot of the data visualized as table can be seen below.
 
-![Screenshot of the data as table](./Screenshot_csv_data.png)
+![Screenshot of the data as table](./assets/Screenshot_csv_data.png)
