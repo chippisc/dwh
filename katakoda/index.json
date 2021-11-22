@@ -6,12 +6,16 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Setting up a docker environment",
         "text": "step1.md"
       },
       {
-        "title": "Importing data from CSV",
+        "title": "About the CSV file",
         "text": "step2.md"
+      },
+      {
+        "title": "Importing data from CSV",
+        "text": "step3.md"
       }
     ],
     "intro": {
