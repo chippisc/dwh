@@ -1,4 +1,4 @@
-To get started using Neo4j as fast and easy as possible we use ![https://hub.docker.com/_/neo4j](the official Neo4j docker image).
+To get started using Neo4j as fast and easy as possible we use [https://hub.docker.com/_/neo4j](the official Neo4j docker image).
 
 We can pull the docker image by typing
 
