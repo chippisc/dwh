@@ -1,5 +1,9 @@
 ## Import the data in neo4j
 
+Before we start working with the database a few words about what Neo4j is and why it can be useful for studies.
+
+![Types of database] (./Screeenshot_Folien_Tools.png)
+
 Open cypher shell
 `cypher-shell -u neo4j -p neo4j`{{execute}}
 Change of password is necessary
