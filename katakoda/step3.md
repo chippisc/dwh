@@ -5,7 +5,8 @@ Before we start working with the database a few words about what Neo4j is and wh
 Neo4j is the leading graph database and offers additional tools such as a browser interface to easily visualize data.[1]
 
 As depicted below graph databases are part of nosql databases.
-![Types of database](./asssets/Screeenshot_Folien_Tools.png)
+
+![Types of database](./assets/Screenshot_Folien_Tools.png)
 Andreas Buckenhofer. Lecture @DHBW: Data Warehouse. Lecture slides. 02 Tools. DHBW Stuttgart, delivered October 2021.
 
 For this example we will use the cypher shell to work with Neo4j. Cypher shell is the basic cli tool Neo4j offers for interaction with the database. The shell can be opened with the command cypher-shell. A user and password need to be added. After first accessing the database a new password has to be set which you can chose freely.
@@ -18,7 +19,7 @@ This will model every line of the CSV file as a new person. Relations between ev
 The line greatest fear will not be imported to keep the example simple.
 
 
-![Structure of graph stores](./assets/Screeenshot_Folien_graphmodel.png)
+![Structure of graph stores](./assets/Screenshot_Folien_graphmodel.png)
 Andreas Buckenhofer. Lecture @DHBW: Data Warehouse. Lecture slides. 02 Tools. DHBW Stuttgart, delivered October 2021.
 
 Before we insert the data we have to decide which structure we want to model in our database. For this example we structure is relatively simple. We will create a person for each line in the csv file. This person will then be connected to the fear, the number of encounters, the impact, if the fear can be passed, if the fear is overcome and if the person is embarrassed. 
