@@ -17,6 +17,7 @@ Change of password is necessary
 Load CSV data
 This will model every line of the CSV file as a new person. Relations between every participant and the other columns will be created.
 The line greatest fear will not be imported to keep the example simple.
+In below image the general structure of a graph can be seen. For our example we will create Nodes (Vertices) and Edges (Relations).
 
 
 ![Structure of graph stores](./assets/Screenshot_Folien_graphmodel.png)
