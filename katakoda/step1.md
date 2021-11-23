@@ -20,6 +20,8 @@ We copy the csv file to the container by using docker cp:
 
 `docker cp ./FearStudyData.csv neo4jdwh:/var/lib/neo4j/import/FearStudyData.csv`{{execute T2}}
 
+Please make sure the file has been copied successfully. If the new terminal window needs too long to initialize the command may not be executed right away. You can check with ls ```/var/lib/neo4j/import/``` after entering the container (next step) or simply execute above command again as it will only replace the file if it was already copied successfully.
+
 After copying the file to the container we are set up to enter the container. To open a new interactive shell in the container we run the following command:
 
 `docker exec -it neo4jdwh bash`{{execute}}
