@@ -17,7 +17,9 @@ So depending on the model you want to implement a relational or a graph database
 Lastly I want to reference a benchmark comparing Neo4j with Stardog (another graph database). The benchmark resulted in Neo4j performing better than Stardog for write operations by a signle user aswell as hundreds of parallel users. Query operations by hundreds of parallel users on the other hand performed roughly equal.
 Below table shows transaction times while inserting and querying data parallel. Here Neo4j performed roughly twice as good. [4]
 
-![Comparing transactions on Stardog and Neo4j](./assets/Screenshot_comparison.png) [3]
+![Comparing transactions on Stardog and Neo4j](./assets/Screenshot_comparison.png)
+
+[3]
 For more information about the benchmark please check the literature.
 
 ### Literature
